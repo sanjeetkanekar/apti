@@ -1,112 +1,79 @@
-/*
-
-Template 2098 Health
-
-http://www.tooplate.com/view/2098-health
-
-*/
-
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
-
-  body {
+/* Template 2098 Health http://www.tooplate.com/view/2098-health */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+body {
     background: #ffffff;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-  }
-
-
-  /*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
-
-  h1,h2,h3,h4,h5,h6 {
+}
+/*--------------------------------------- TYPOGRAPHY -----------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     line-height: inherit;
-  }
-
-  h1,h2,h3,h4 {
+}
+h1,h2,h3,h4 {
     letter-spacing: -1px;
-  }
-
-  h5 {
+}
+h5 {
     font-weight: 500;
-  }
-
-  h1 {
+}
+h1 {
     color: #252525;
     font-size: 5em;
-  }
-
-  h2 {
+}
+h2 {
     color: #272727;
     font-size: 3em;
     padding-bottom: 10px;
-  }
-
-  h3 {
+}
+h3 {
     font-size: 1.8em;
     line-height: 1.2em;
     margin-bottom: 0;
-  }
-
-  h4 {
+}
+h4 {
     color: #454545;
     font-size: 1.8em;
     padding-bottom: 2px;
-  }
-
-  h6 {
+}
+h6 {
     letter-spacing: 0;
     font-weight: normal;
-  }
-
-  p {
+}
+p {
     color: #757575;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
-  }
-
-
-  /*---------------------------------------
-     GENERAL               
-  -----------------------------------------*/
-
-  html{
+}
+/*--------------------------------------- GENERAL -----------------------------------------*/
+html{
     -webkit-font-smoothing: antialiased;
-  }
-
-  a {
+}
+a {
     color: #252525;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     text-decoration: none !important;
-  }
-
-  a:hover, a:active, a:focus {
+}
+a:hover, a:active, a:focus {
     color: #a5c422;
     outline: none;
-  }
-
-  ::-webkit-scrollbar{
+}
+::-webkit-scrollbar{
     width: 8px;
     height: 8px;
-  }
-
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     cursor: pointer;
     background: #000000;
-  }
-
-  .section-title {
+}
+.section-title {
     padding-bottom: 20px;
-  }
-
-  .section-title h2 {
+}
+.section-title h2 {
     margin-top: 0;
-  }
-
-  .section-btn {
+}
+.section-btn {
     background: #a5c422;
     border: 0;
     border-radius: 3px;
@@ -116,99 +83,79 @@ http://www.tooplate.com/view/2098-health
     padding: 14px 20px;
     transition: transform 0.1s ease-in;
     transform: translateX(0);
-  }
-
-  .section-btn:hover {
+}
+.section-btn:hover {
     transform: translateY(-5px);
-  }
-
-  .text-align-right {
+}
+.text-align-right {
     text-align: right;
-  }
-
-  .text-align-center {
+}
+.text-align-center {
     text-align: center;
-  }
-
-  .border-top {
+}
+.border-top {
     border-top: 1px solid #757575;
     margin-top: 4em;
     padding-top: 2.5em;
-  }
-
-  .btn-gray {
+}
+.btn-gray {
     background: #393939;
-  }
-
-  .btn-blue {
+}
+.btn-blue {
     background: #4267b2;
-  }
-
-  .news-thumb {
+}
+.news-thumb {
     background: #ffffff;
     border-radius: 10px;
-  }
-  .news-thumb img {
+}
+.news-thumb img {
     border-radius: 10px 10px 0 0;
-  }
-
-  .news-info {
+}
+.news-info {
     padding: 30px;
     text-align: left;
-  }
-  .news-info span {
+}
+.news-info span {
     display: block;
     letter-spacing: 0.5px;
-  }
-  .news-info h3 {
+}
+.news-info h3 {
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-
-  .author {
+}
+.author {
     border-top: 1px solid #f0f0f0;
     padding-top: 1.5em;
     margin-top: 2em;
-  }
-  .author img,
-  .author .author-info {
+}
+.author img, .author .author-info {
     display: inline-block;
     vertical-align: top;
-  }
-  .author-info h5 {
+}
+.author-info h5 {
     margin-bottom: 0;
-  }
-  .author img {
+}
+.author img {
     border-radius: 100%;
     width: 50px;
     height: 50px;
     margin-right: 10px;
-  }
-
-
-  #about, #team, #news,
-  #news-detail {
+}
+#about, #team, #news, #news-detail {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  #news, #service {
+}
+#news, #service {
     text-align: center;
-  }
-
-  #google-map {
+}
+#google-map {
     line-height: 0;
     margin: 0;
     padding: 0;
-  }
-
-
-  /*---------------------------------------
-       PRE LOADER              
-  -----------------------------------------*/
-
-  .preloader {
+}
+/*--------------------------------------- PRE LOADER -----------------------------------------*/
+.preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -220,15 +167,13 @@ http://www.tooplate.com/view/2098-health
     justify-content: center;
     align-items: center;
     background: none repeat scroll 0 0 #ffffff;
-  }
-
-  .spinner {
+}
+.spinner {
     border: 1px solid transparent;
     border-radius: 3px;
     position: relative;
-  }
-
-  .spinner:before {
+}
+.spinner:before {
     content: '';
     box-sizing: border-box;
     position: absolute;
@@ -242,98 +187,76 @@ http://www.tooplate.com/view/2098-health
     border: 1px solid #575757;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
-  }
-
-  @-webkit-@keyframes spinner {
-    to {transform: rotate(360deg);}
-  }
-
-  @keyframes spinner {
-    to {transform: rotate(360deg);}
-  }
-
-
-
-  /*---------------------------------------
-      MENU              
-  -----------------------------------------*/
-
-  header {
+}
+@-webkit-@keyframes spinner {
+    to {
+       transform: rotate(360deg);
+   }
+}
+@keyframes spinner {
+    to {
+       transform: rotate(360deg);
+   }
+}
+/*--------------------------------------- MENU -----------------------------------------*/
+header {
     background: #ffffff;
     border-bottom: 1px solid #f2f2f2;
     display: flex;
-    /*height: 45px;*/
-  }
-
-  header .col-md-8 {
+   /*height: 45px;
+   */
+}
+header .col-md-8 {
     padding-right: 0;
-  }
-
-  header .title,
-  header span {
+}
+header .title, header span {
     font-size: 34px;
     line-height: 35px;
     padding-top: 12px;
     text-align: center;
-  }
-
-   header .subtitle {
+}
+header .subtitle {
     text-align: center;
     font-size: 34px;
-  }
-
-  header a,
-  header span {
+}
+header a, header span {
     color: #747474;
-  }
-
-  header span {
+}
+header span {
     font-weight: 500;
     display: inline-block;
     padding: 11px 15px;
-  }
-
-  header span.date-icon {
+}
+header span.date-icon {
     border-left: 1px solid #f2f2f2;
     border-right: 1px solid #f2f2f2;
     padding-right: 19px;
     padding-left: 19px;
-  }
-
-  header span i {
+}
+header span i {
     color: #a5c422;
     margin-right: 5px;
-  }
-
-  header img{
+}
+header img{
     width: 80px;
-  }
-
-
-
-
-  /*---------------------------------------
-      MENU              
-  -----------------------------------------*/
-
-  .navbar-default {
+}
+/*--------------------------------------- MENU -----------------------------------------*/
+.navbar-default {
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0,0,0,.075);
     border: none;
     margin-bottom: 0;
-    /*padding: 10px;*/
-  }
-
-  .navbar-default .navbar-brand {
+   /*padding: 10px;
+   */
+}
+.navbar-default .navbar-brand {
     color: #393939;
     font-weight: 500;
-  }
-
-  .navbar-default .navbar-brand .fa {
+}
+.navbar-default .navbar-brand .fa {
     color: #a5c422;
-  }
-
-  .navbar-default .navbar-nav li a {
+}
+.navbar-default .navbar-nav li a {
     color: #555555;
     font-size: 12px;
     font-weight: 500;
@@ -341,47 +264,35 @@ http://www.tooplate.com/view/2098-health
     padding-left: 22px;
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
-  }
-
-  .navbar-default .navbar-nav > li a:hover {
+}
+.navbar-default .navbar-nav > li a:hover {
     color: #0073cf !important;
-  }
-
-  .navbar-default .navbar-nav > li > a:hover,
-  .navbar-default .navbar-nav > li > a:focus {
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #0073cf;
     background-color: transparent;
-  }
-
-  .navbar-default .navbar-nav > .active > a,
-  .navbar-default .navbar-nav > .active > a:hover,
-  .navbar-default .navbar-nav > .active > a:focus {
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #0073cf;
     background-color: transparent;
-  }
-
-  .navbar-default .navbar-toggle {
+}
+.navbar-default .navbar-toggle {
     border: none;
     padding-top: 10px;
-  }
-
-  .navbar-default .navbar-toggle .icon-bar {
+}
+.navbar-default .navbar-toggle .icon-bar {
     background: #393939;
     border-color: transparent;
-  }
-
-  .navbar-default .navbar-toggle:hover,
-  .navbar-default .navbar-toggle:focus { 
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: transparent;
-  }
-
-  .navbar-nav.navbar-center {
+}
+.navbar-nav.navbar-center {
     position: absolute;
     left: 49%;
     transform: translatex(-50%);
-  }
-
-  .dropdown-toggle::after {
+}
+.dropdown-toggle::after {
     display: inline-block;
     width: 0;
     height: 0;
@@ -392,20 +303,14 @@ http://www.tooplate.com/view/2098-health
     border-right: 0.3em solid transparent;
     border-bottom: 0;
     border-left: 0.3em solid transparent;
-  }
-
-
-  /*---------------------------------------
-      HOME              
-  -----------------------------------------*/
-
-  #home h1 {
+}
+/*--------------------------------------- HOME -----------------------------------------*/
+#home h1 {
     color: #ffffff;
     padding-bottom: 10px;
     margin-top: 0;
-  }
-
-  #home h3 {
+}
+#home h3 {
     color: #ffffff;
     font-size: 14px;
     font-weight: normal;
@@ -413,20 +318,17 @@ http://www.tooplate.com/view/2098-health
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0;
-  }
-
-  .slider .container {
+}
+.slider .container {
     width: 100%;
-  }
-
-  .slider .owl-dots {
-      position: absolute;
-      top: 575px;
-      width: 100%;
-      justify-content: center;
-  }
-
-  .owl-theme .owl-dots .owl-dot span {
+}
+.slider .owl-dots {
+    position: absolute;
+    top: 575px;
+    width: 100%;
+    justify-content: center;
+}
+.owl-theme .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
     margin: 5px 7px;
@@ -436,14 +338,12 @@ http://www.tooplate.com/view/2098-health
     -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 30px;
-  }
-
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ffffff;
     border-color: transparent;
-  }
-
-  .slider .caption {
+}
+.slider .caption {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -452,92 +352,74 @@ http://www.tooplate.com/view/2098-health
     height: 100%;
     color: #fff;
     cursor: e-resize;
-  }
-
-  .slider .item {
+}
+.slider .item {
     background-position: inherit;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     height: 650px;
-
-  }
-
-  .slider .item-first {
+}
+.slider .item-first {
     background-image: url(../images/APTI_SLIDER1.png);
-  }
-
-  .slider .item-second {
+}
+.slider .item-second {
     background-image: url(../images/APTI_SLIDER2.jpg);
-  }
-
-  .slider .item-third {
+}
+.slider .item-third {
     background-image: url(../images/APTI_SLIDER3.jpg);
-  }
-
-  .slider .item-fourth {
+}
+.slider .item-fourth {
     background-image: url(../images/APTI_SLIDER4.jpg);
-  }
-
-
-  /*---------------------------------------
-      ABOUT              
-  -----------------------------------------*/
-
-  #about {
-    /*background: url('../images/about-bg.jpg') no-repeat top center;*/
-    /*background-size: cover;*/
+}
+/*--------------------------------------- ABOUT -----------------------------------------*/
+#about {
+   /*background: url('../images/about-bg.jpg') no-repeat top center;
+   */
+   /*background-size: cover;
+   */
     background: #f9f9f9;
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: justify;
-  }
-
-  .profile img,
-  .profile figcaption {
+}
+.profile img, .profile figcaption {
     display: inline-block;
     vertical-align: top;
     margin-top: 1em;
-  }
-  .profile img {
+}
+.profile img {
     border-radius: 100%;
     width: 65px;
     height: 65px;
     margin-right: 1em;
-  }
-  .profile figcaption h3 {
+}
+.profile figcaption h3 {
     margin-top: 0;
-  }
-
-  #about h6 {
+}
+#about h6 {
     color: #858585;
     margin: 0;
-  }
-
- /*---------------------------------------
-      MISSION              
-  -----------------------------------------*/
-
+}
+/*--------------------------------------- MISSION -----------------------------------------*/
 #mission {
-    /*background: #f9f9f9;*/
+   /*background: #f9f9f9;
+   */
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: justify;
-  }
-
-  #mission li{
+}
+#mission li{
     margin: 10px 0;
-  }
-
-  /*---------------------------------------
-      TEAM MEMBERS              
-  -----------------------------------------*/
-
-  #team {
+}
+/*--------------------------------------- TEAM MEMBERS -----------------------------------------*/
+#team {
     background-color: #f9f9f9;
-  }
-
-  .team-thumb {
+}
+#team h2,#mission h2, #about h2{
+    padding-bottom: 30px;
+}
+.team-thumb {
     background-color: #ffffff;
     border-radius: 0 0 10px 10px;
     position: relative;
@@ -545,55 +427,44 @@ http://www.tooplate.com/view/2098-health
     cursor: pointer;
     margin-bottom: 30px;
     padding-top: 33px;
-  }
-
-  .team-thumb h3{
+}
+.team-thumb h3{
     font-size: 15px;
     margin-bottom: 10px;
-  }
-
-
-  .team-thumb img{
+}
+.team-thumb img{
     margin: auto;
     width: 200px;
     height: 200px;
-  }
-
-  .team-info {
+}
+.team-info {
     padding: 20px 30px 0 30px;
     min-height: 300px;
-  }
-
-  .team-info .description {
+}
+.team-info .description {
     min-height: 120px;
-  }
-
-  .team-info .designation {
-    color: #0073cf
-  }
-
-  .team-contact-info {
+}
+.team-info .designation {
+    color: #0073cf 
+}
+.team-contact-info {
     border-top: 1px solid #e9e9e9;
     padding-top: 1.2em;
     margin-top: 1.5em;
     margin-bottom: 20px;
-  }
-
-  .team-contact-info .fa {
+}
+.team-contact-info .fa {
     margin-right: 5px;
     display: inline-block;
-  }
-
-  .team-contact-info a {
+}
+.team-contact-info a {
     color: #757575;
     font-size: 11px;
-  }
-
-  .team-thumb .social-icon li {
+}
+.team-thumb .social-icon li {
     font-weight: 500;
-  }
-
-  .team-thumb .social-icon li a {
+}
+.team-thumb .social-icon li a {
     background: #ffffff;
     border-radius: 100%;
     font-size: 20px;
@@ -601,109 +472,252 @@ http://www.tooplate.com/view/2098-health
     height: 50px;
     line-height: 50px;
     margin: 0 2px 0 2px;
-  }
-
-  .team-thumb .social-icon {
+}
+.team-thumb .social-icon {
     opacity: 0;
     transform: translateY(100%);
     transition: 0.5s 0.2s;
     text-align: center;
     position: relative;
     top: 0;
-  }
-
-  .team-thumb:hover .social-icon {
+}
+.team-thumb:hover .social-icon {
     opacity: 1;
     transition-delay: 0.3s;
     transform: translateY(0px);
     top: -22em;
-  }
-
-    /*---------------------------------------
-     members            
-  -----------------------------------------*/
-  #members, #national {
-      /*background: url('../images/about-bg.jpg') no-repeat top center;*/
-      /*background-size: cover;*/
-      background:#0073cf;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      text-align: justify;
-    }
-
-  #members .members-btn, #national .members-btn {
+}
+/*--------------------------------------- members -----------------------------------------*/
+#members, #national {
+   /*background: url('../images/about-bg.jpg') no-repeat top center;
+   */
+   /*background-size: cover;
+   */
+    background:#0073cf;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+}
+#members .members-btn, #national .members-btn {
     margin: 3px 0 0 20px;
-  }
-
-  #members .members-btn a, #national .members-btn a {
+}
+#members .members-btn a, #national .members-btn a {
     background: #0073cf;
     border-radius: 3px;
     border: 2px solid #ffffff;
     color: #ffffff;
     font-weight: 600;
     padding: 12px;
-  }
-
-  #members .members-btn a:hover, #national .members-btn a:hover {
+}
+#members .members-btn a:hover, #national .members-btn a:hover {
     background: #ffffff;
     color: #0073cf !important;
-  }
-
-  #members p, #national p {
+}
+#members p, #national p {
     color: white;
     font-size: 20px;
-  }
-
-  /*---------------------------------------
-     WOMEN FORUM             
-  -----------------------------------------*/
-
+}
+/*--------------------------------------- WOMEN FORUM -----------------------------------------*/
 #women {
-    /*background: url('../images/about-bg.jpg') no-repeat top center;*/
-    /*background-size: cover;*/
+   /*background: url('../images/about-bg.jpg') no-repeat top center;
+   */
+   /*background-size: cover;
+   */
     background: #f9f9f9;
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: justify;
-  }
-
-
-
-  /*---------------------------------------
-     FOOTER              
-  -----------------------------------------*/
-
-  footer {
+}
+/*--------------------------------------- GALLERY -----------------------------------------*/
+#gallery {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#gallery h2 {
+    color: black;
+    margin-bottom: 30px;
+}
+.gallery_product {
+    margin-bottom: 30px;
+}
+.categories {
+    margin-bottom: 20px;
+}
+ul.cat li {
+    display: inline-block;
+}
+ul.cat li:last-child {
+    margin-top: 10px;
+}
+ol.type li {
+    display: inline-block;
+    margin-right: 20px;
+}
+ol.type li div {
+    font-family: "Montserrat", sans-serif;
+    color: #444;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid #308fc3;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+ol.type li div.active {
+    background: #308fc3;
+    color: #eee;
+}
+ol.type li div:hover {
+    background: #308fc3;
+    color: #eee;
+    cursor: pointer;
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+   /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope-item {
+    margin-right: -1px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 0 10px;
+}
+.isotope {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+@media (max-width: 768px) {
+    #gallery {
+        padding-top: 45px;
+   }
+    #gallery h2 {
+        line-height: 0;
+        font-size: 30px;
+        color: #606060;
+        padding-bottom: 30px;
+   }
+}
+.gallery_product:hover img {
+    opacity: 0.3;
+}
+.gallery_product:hover .gallery_content {
+    opacity: 1;
+}
+.gallery_product img {
+    padding: 0;
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+.gallery_product img, .gallery_content {
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+.gallery_content {
+    position: absolute;
+    color: black;
+    left: 0;
+   /* top: 25%;
+    */
+    right: 0;
+    bottom: 0;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0;
+}
+.gallery_content p {
+    padding: 0px 50px;
+    font-size: 15px;
+    color: black;
+}
+/*--------------------------------------- NEWS -----------------------------------------*/
+#news {
+    margin-bottom: 20px;
+}
+#news h2{
+    float: left;
+    margin-bottom: 30px;
+}
+.news {
+    background-color: #f8f8f8;
+}
+.news-post-info {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 25px;
+    color: #999999;
+    font-size: 0.8em;
+    font-style: italic;
+}
+.news-post-info .time {
+    float: left;
+}
+.news-post-info i {
+    margin-right: 5px;
+}
+.news-post-body {
+    padding: 15px 25px 25px;
+}
+.news-post-body p {
+    text-align: justify;
+}
+.news-post-body h4 {
+    text-transform: capitalize;
+    text-align: left;
+}
+.news-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden 
+}
+.news-media img {
+    min-width: 100%;
+    min-height: 100% 
+}
+/*--------------------------------------- FOOTER -----------------------------------------*/
+footer {
     padding-top: 80px;
     padding-bottom: 40px;
-  }
-
-  footer h4 {
+}
+footer h4 {
     padding-bottom: 5px;
     color: #ffffff;
-  }
-
-  footer a {
+}
+footer a {
     color: #ffffff;
-  }
-
-  footer a:hover {
+}
+footer a:hover {
     color: #4267b2;
-  }
-
-  footer {
+}
+footer {
     background: #454545;
-  }
-
-  footer p {
+}
+footer p {
     color: #ffffff;
-  }
-
-  .contact-info {
+}
+.contact-info {
     padding-top: 10px;
-  }
-
-  .contact-info .fa {
+}
+.contact-info .fa {
     background: #393939;
     border-radius: 100%;
     color: #ffffff;
@@ -714,69 +728,55 @@ http://www.tooplate.com/view/2098-health
     text-align: center;
     margin-right: 5px;
     margin-bottom: 2px;
-  }
-
-  .latest-stories {
+}
+.latest-stories {
     margin-bottom: 20px;
-  }
-
-  .stories-image,
-  .stories-info {
+}
+.stories-image, .stories-info {
     display: inline-block;
     vertical-align: top;
-  }
-
-  .stories-image img {
+}
+.stories-image img {
     border-radius: 100%;
     width: 65px;
     height: 65px;
-  }
-
-  .stories-info {
+}
+.stories-info {
     margin-left: 15px;
-  }
-
-  .stories-info h5 {
+}
+.stories-info h5 {
     margin-bottom: 2px;
     color: #ffffff;
-  }
-
-  .stories-info span {
+}
+.stories-info span {
     color: #757575;
     font-size: 12px;
-  }
-
-  .opening-hours p {
+}
+.opening-hours p {
     line-height: 18px;
-  }
-
-  .opening-hours span {
+}
+.opening-hours span {
     font-weight: 500;
     display: inline-block;
     padding-left: 10px;
-  }
-
-  .copyright-text p,
-  .footer-link a {
+}
+.copyright-text p, .footer-link a {
     color: #ffffff;
     font-size: 12px;
     font-weight: 500;
-  }
-
-  .footer-link a {
+}
+.footer-link a {
     font-size: 12px;
     display: inline-block;
     padding: 0 10px;
     margin-top: 4px;
-  }
-
-  .angle-up-btn {
+}
+.angle-up-btn {
     position: relative;
     bottom: 4em;
     display: block;
-  }
-
-  .angle-up-btn a {
+}
+.angle-up-btn a {
     background: #ffffff;
     border: 1px solid #f2f2f2;
     border-radius: 3px;
@@ -789,31 +789,23 @@ http://www.tooplate.com/view/2098-health
     line-height: 38px;
     transition: transform 0.1s ease-in;
     transform: translateX(0);
-  }
-
-  .angle-up-btn a:hover {
+}
+.angle-up-btn a:hover {
     background: #4267b2;
     color: #ffffff;
     transform: translateY(-5px);
-  }
-
-
-  /*---------------------------------------
-     SOCIAL ICON              
-  -----------------------------------------*/
-
-  .social-icon {
+}
+/*--------------------------------------- SOCIAL ICON -----------------------------------------*/
+.social-icon {
     position: relative;
     padding: 0;
     margin: 0;
-  }
-
-  .social-icon li {
+}
+.social-icon li {
     display: inline-block;
     list-style: none;
-  }
-
-  .social-icon li a {
+}
+.social-icon li a {
     border-radius: 100px;
     color: #464646;
     font-size: 15px;
@@ -824,229 +816,111 @@ http://www.tooplate.com/view/2098-health
     text-align: center;
     transition: all 0.4s ease-in-out;
     position: relative;
-  }
-
-  .social-icon li a:hover {
+}
+.social-icon li a:hover {
     background: #4267b2;
     color: #ffffff;
-  }
-
-
-  /*---------------------------------------
-     RESPONSIVE STYLES              
-  -----------------------------------------*/
-
-  @media only screen and (max-width: 1200px) {
+}
+/*--------------------------------------- RESPONSIVE STYLES -----------------------------------------*/
+@media only screen and (max-width: 1200px) {
     h1 {
-      font-size: 4em;
-    }
+        font-size: 4em;
+   }
     h2 {
-      font-size: 2.5em;
-    }
+        font-size: 2.5em;
+   }
     h3 {
-      font-size: 1.5em;
-    }
-
+        font-size: 1.5em;
+   }
     header {
-      height: inherit;
-    }
+        height: inherit;
+   }
     header span.date-icon {
-      border: 0;
-      padding-right: 0;
-      padding-left: 0;
-    }
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+   }
     header span.email-icon {
-      padding-top: 0;
-    }
-
+        padding-top: 0;
+   }
     .navbar-default .navbar-nav li a {
-      padding-right: 15px;
-      padding-left: 15px;
-    }
-  }
-
-  @media only screen and (max-width: 992px) {
+        padding-right: 15px;
+        padding-left: 15px;
+   }
+}
+@media only screen and (max-width: 992px) {
     .slider .item {
-      background-position: center;
-    }
-
+        background-position: center;
+   }
     header {
-      padding-bottom: 10px;
-    }
+        padding-bottom: 10px;
+   }
     header .text-align-right {
-      text-align: left;
-    }
+        text-align: left;
+   }
     header span {
-      padding-top: 0;
-      padding-left: 0;
-      padding-bottom: 0;
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+   }
+}
+@media only screen and (max-width: 767px) {
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-      border-color: transparent;
-    }
+        border-color: transparent;
+   }
     .navbar-default .navbar-nav li.appointment-btn {
-      margin-left: 15px;
-    }
+        margin-left: 15px;
+   }
     .navbar-default .navbar-nav li a {
-      display: inline-block;
-      padding-top: 8px;
-      padding-bottom: 8px;
-    }
-
+        display: inline-block;
+        padding-top: 8px;
+        padding-bottom: 8px;
+   }
     .news-sidebar {
-      margin-top: 2em;
-    }
-
+        margin-top: 2em;
+   }
     #appointment-form {
-      padding-top: 4em;
-      padding-bottom: 4em;
-    }
-
+        padding-top: 4em;
+        padding-bottom: 4em;
+   }
     footer {
-      padding-top: 60px;
-      padding-bottom: 0;
-    }
+        padding-top: 60px;
+        padding-bottom: 0;
+   }
     .footer-thumb {
-      padding-bottom: 10px;
-    }
-
+        padding-bottom: 10px;
+   }
     .border-top {
-      text-align: center;
-    }
-
+        text-align: center;
+   }
     .copyright-text {
-      margin-top: 10px;
-    }
-
+        margin-top: 10px;
+   }
     .angle-up-btn {
-      bottom: 10em;
-    }
-  }
-
-  @media only screen and (max-width: 639px) {
+        bottom: 10em;
+   }
+}
+@media only screen and (max-width: 639px) {
     h1 {
-      font-size: 3em;
-      line-height: 1.2em;
-    }
+        font-size: 3em;
+        line-height: 1.2em;
+   }
     h2 {
-      font-size: 2.1em;
-    }
+        font-size: 2.1em;
+   }
     h4 {
-      font-size: 1.4em;
-    }
-
+        font-size: 1.4em;
+   }
     #home h3 {
-      font-size: 11px;
-      letter-spacing: 1px;
-    }
-
-  }
-
-
-  /*Gallery section*/
-
-  #gallery {
-  padding-top: 100px;
-  padding-bottom: 80px;
+        font-size: 11px;
+        letter-spacing: 1px;
+   }
 }
-
-#gallery h2 {
-  color: black;
-}
-
-.gallery_product {
-  margin-bottom: 30px;
-}
-
-.categories {
-  margin-bottom: 20px;
-}
-
-ul.cat li {
-  display: inline-block;
-}
-
-ul.cat li:last-child {
-  margin-top: 10px;
-}
-
-ol.type li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-ol.type li div {
-  font-family: "Montserrat", sans-serif;
-  color: #444;
-  font-size: 14px;
-  padding: 10px 20px;
-  border: 2px solid #308fc3;
-  border-radius: 0;
-  text-transform: uppercase;
-}
-
-ol.type li div.active {
-  background: #308fc3;
-  color: #eee;
-}
-
-ol.type li div:hover {
-  background: #308fc3;
-  color: #eee;
-  cursor: pointer;
-}
-
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  z-index: 1;
-}
-
-.isotope,
-.isotope .isotope-item {
-  /* change duration value to whatever you like */
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-
-.isotope-item {
-  margin-right: -1px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  padding: 0 10px;
-}
-
-.isotope {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
-  transition-property: transform, opacity;
-}
-
-@media (max-width: 768px) {
-  #gallery {
-    padding-top: 45px;
-  }
-
-  #gallery h2 {
-    line-height: 0;
-    font-size: 30px;
-    color: #606060;
-    padding-bottom: 30px;
-  }
+@media only screen and (max-width: 992px) {
+    #national p, #members p {
+        margin-bottom: 32px;
+   }
+    .headerlogo {
+        text-align: center;
+   }
 }

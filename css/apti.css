@@ -269,11 +269,17 @@ http://www.tooplate.com/view/2098-health
     padding-right: 0;
   }
 
-  header p,
+  header .title,
   header span {
     font-size: 34px;
     line-height: 35px;
     padding-top: 12px;
+    text-align: center;
+  }
+
+   header .subtitle {
+    text-align: center;
+    font-size: 34px;
   }
 
   header a,
@@ -304,6 +310,8 @@ http://www.tooplate.com/view/2098-health
   }
 
 
+
+
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
@@ -329,8 +337,8 @@ http://www.tooplate.com/view/2098-health
     color: #555555;
     font-size: 12px;
     font-weight: 500;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 22px;
+    padding-left: 22px;
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
   }
@@ -452,10 +460,11 @@ http://www.tooplate.com/view/2098-health
     background-attachment: local;
     background-size: cover;
     height: 650px;
+
   }
 
   .slider .item-first {
-    background-image: url(../images/APTI_SLIDER1.jpg);
+    background-image: url(../images/APTI_SLIDER1.png);
   }
 
   .slider .item-second {
@@ -463,7 +472,11 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item-third {
-    background-image: url(../images/APTI_SLIDER3.png);
+    background-image: url(../images/APTI_SLIDER3.jpg);
+  }
+
+  .slider .item-fourth {
+    background-image: url(../images/APTI_SLIDER4.jpg);
   }
 
 
@@ -653,6 +666,8 @@ http://www.tooplate.com/view/2098-health
     padding-bottom: 100px;
     text-align: justify;
   }
+
+
 
   /*---------------------------------------
      FOOTER              
@@ -929,4 +944,91 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
+.portfolio .button{
+  display: inline-block;
+  padding: 12px 45px 8px 45px;
+  margin-bottom: 20px;
+}
 
+.portfolio__button-group{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.portfolio__single-section{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+
+.portfolio__single-section__image{
+ display: block;
+ height: auto;
+}
+
+.portfolio__single-section h4{
+ font-size: 20px;
+ font-family: Roboto-Light;
+ font-weight: bold;
+ color: #fff;
+}
+
+.portfolio__single-section p{
+ font-weight: 15px;
+ color: #fff;
+ font-family: Roboto-Light;
+ font-weight: bold;
+}
+
+.portfolio__single-section__search-icon{
+ position: absolute;
+ left: 45%;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+.portfolio__single-section .overlay-content{
+  position: absolute;
+  bottom: 25px;
+  margin-left: 35px;
+  z-index: 10;
+}
+
+.portfolio__single-section__overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;  
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: rgba(133, 91, 249, .9);
+  border-radius: 10px;
+}
+
+.portfolio__single-section:hover .portfolio__single-section__overlay{
+  opacity: 1;
+}
+
+.gutters-40.row{
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.gutters-40 > [class^="col-"], .gutters-40 > [class^="col-"]{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media(max-width: 991px) {
+  .portfolio__single-section{
+    max-width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}

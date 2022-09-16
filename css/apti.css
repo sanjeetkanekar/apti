@@ -622,7 +622,7 @@ http://www.tooplate.com/view/2098-health
     /*---------------------------------------
      members            
   -----------------------------------------*/
-  #members {
+  #members, #national {
       /*background: url('../images/about-bg.jpg') no-repeat top center;*/
       /*background-size: cover;*/
       background:#0073cf;
@@ -631,11 +631,11 @@ http://www.tooplate.com/view/2098-health
       text-align: justify;
     }
 
-  #members .members-btn {
+  #members .members-btn, #national .members-btn {
     margin: 3px 0 0 20px;
   }
 
-  #members .members-btn a {
+  #members .members-btn a, #national .members-btn a {
     background: #0073cf;
     border-radius: 3px;
     border: 2px solid #ffffff;
@@ -644,12 +644,12 @@ http://www.tooplate.com/view/2098-health
     padding: 12px;
   }
 
-  #members .members-btn a:hover {
+  #members .members-btn a:hover, #national .members-btn a:hover {
     background: #ffffff;
     color: #0073cf !important;
   }
 
-  #members p {
+  #members p, #national p {
     color: white;
     font-size: 20px;
   }
@@ -944,91 +944,109 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
-.portfolio .button{
-  display: inline-block;
-  padding: 12px 45px 8px 45px;
+
+
+  /*Gallery section*/
+
+  #gallery {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#gallery h2 {
+  color: black;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+.categories {
   margin-bottom: 20px;
 }
 
-.portfolio__button-group{
-  text-align: center;
-  margin-bottom: 60px;
+ul.cat li {
+  display: inline-block;
 }
 
-.portfolio__single-section{
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 40px;
-
+ul.cat li:last-child {
+  margin-top: 10px;
 }
 
-.portfolio__single-section__image{
- display: block;
- height: auto;
+ol.type li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-.portfolio__single-section h4{
- font-size: 20px;
- font-family: Roboto-Light;
- font-weight: bold;
- color: #fff;
+ol.type li div {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 2px solid #308fc3;
+  border-radius: 0;
+  text-transform: uppercase;
 }
 
-.portfolio__single-section p{
- font-weight: 15px;
- color: #fff;
- font-family: Roboto-Light;
- font-weight: bold;
+ol.type li div.active {
+  background: #308fc3;
+  color: #eee;
 }
 
-.portfolio__single-section__search-icon{
- position: absolute;
- left: 45%;
- top: 50%;
- -webkit-transform: translateY(-50%);
- transform: translateY(-50%);
+ol.type li div:hover {
+  background: #308fc3;
+  color: #eee;
+  cursor: pointer;
 }
 
-.portfolio__single-section .overlay-content{
-  position: absolute;
-  bottom: 25px;
-  margin-left: 35px;
-  z-index: 10;
+.isotope-item {
+  z-index: 2;
 }
 
-.portfolio__single-section__overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;  
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  background-color: rgba(133, 91, 249, .9);
-  border-radius: 10px;
+.isotope-hidden.isotope-item {
+  z-index: 1;
 }
 
-.portfolio__single-section:hover .portfolio__single-section__overlay{
-  opacity: 1;
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 
-.gutters-40.row{
-  margin-right: -20px;
-  margin-left: -20px;
+.isotope-item {
+  margin-right: -1px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 0 10px;
 }
 
-.gutters-40 > [class^="col-"], .gutters-40 > [class^="col-"]{
-  padding-right: 20px;
-  padding-left: 20px;
+.isotope {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
 }
 
-@media(max-width: 991px) {
-  .portfolio__single-section{
-    max-width: 340px;
-    margin-right: auto;
-    margin-left: auto;
+.isotope .isotope-item {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+@media (max-width: 768px) {
+  #gallery {
+    padding-top: 45px;
   }
 
+  #gallery h2 {
+    line-height: 0;
+    font-size: 30px;
+    color: #606060;
+    padding-bottom: 30px;
+  }
 }
